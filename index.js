@@ -3,6 +3,17 @@ const fs = require('fs');
 const app = express();
 const port = 3000;
 
+function getRandomWord(words, language, difficulty){
+    const filteredWords = words.filter(word => word.language === language && word.difficulty === difficulty);
+
+    if(filteredWords.length === 0){
+        return null;
+    }
+
+    const randomIndex = Math.floor(Math.random() * filteredWords.length);
+    return filteredWords[randomIndex];
+}
+
 app.use(express.json());
 
 app.get('/hangman/:language/:difficulty', (req, res) => {
@@ -24,12 +35,9 @@ app.get('/hangman/:language/:difficulty', (req, res) => {
             return;
         }
 
-        requestedWord = wordsArray.find(wordObj => wordObj.word === 'orange');
+        requestedWord = getRandomWord(wordsArray, language, difficulty);
 
         res.json({
-            message: 'Hangman Game API',
-            language: language || 'not specified',
-            difficulty: difficulty || 'not specified',
             word: requestedWord.word
         });
     });
@@ -40,3 +48,4 @@ app.get('/hangman/:language/:difficulty', (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
+
