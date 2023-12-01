@@ -1,302 +1,302 @@
 [
     {
         "word": "Köttur",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Sól",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Bók",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Tré",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Hús",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Bíll",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Hundur",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Fiskur",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Fugl",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Skór",
-        "language": "Icelandic",
-        "difficulty": "Easy"
+        "language": "icelandic",
+        "difficulty": "easy"
     },
     {
         "word": "Hjól",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Regnhlíf",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Jarðarber",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Fíll",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Lyklaborð",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Bókhefti",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Fjall",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Sjónauki",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Ljósakróna",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Loftbelgur",
-        "language": "Icelandic",
-        "difficulty": "Intermediate"
+        "language": "icelandic",
+        "difficulty": "intermediate"
     },
     {
         "word": "Fornleifafræði",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Dulmálsfræði",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Fjórðungur",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Sköpunarhæfni",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Upplýsingatækni",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Sjálfbærni",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Tilraunaverkefni",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Sjálfstæðisbarátta",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Fjármálastofnun",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Tölvunarfræði",
-        "language": "Icelandic",
-        "difficulty": "Hard"
+        "language": "icelandic",
+        "difficulty": "hard"
     },
     {
         "word": "Cat",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Sun",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Book",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Tree",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "House",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Car",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Dog",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Fish",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Bird",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Shoe",
-        "language": "English",
-        "difficulty": "Easy"
+        "language": "english",
+        "difficulty": "easy"
     },
     {
         "word": "Whistle",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Journey",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Curtain",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Champion",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Harmony",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Courage",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Gesture",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Leisure",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Mystery",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Rhythm",
-        "language": "English",
-        "difficulty": "Intermediate"
+        "language": "english",
+        "difficulty": "intermediate"
     },
     {
         "word": "Quizzical",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Juxtapose",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Quintessential",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Zephyr",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Hypothetical",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Kaleidoscope",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Xenophobia",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Ventriloquist",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Unscrupulous",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     },
     {
         "word": "Rhapsody",
-        "language": "English",
-        "difficulty": "Hard"
+        "language": "english",
+        "difficulty": "hard"
     }
 ]
