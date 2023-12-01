@@ -1,0 +1,27 @@
+[
+    {
+        "word": "apple",
+        "language": "English",
+        "difficulty": "Easy"
+    },
+    {
+        "word": "banana",
+        "language": "English",
+        "difficulty": "Intermediate"
+    },
+    {
+        "word": "orange",
+        "language": "English",
+        "difficulty": "Intermediate"
+    },
+    {
+        "word": "naranja",
+        "language": "Spanish",
+        "difficulty": "Medium"
+    },
+    {
+        "word": "schwierig",
+        "language": "German",
+        "difficulty": "Hard"
+    }
+]
