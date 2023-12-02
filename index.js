@@ -1,9 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 function getRandomWordByLanguageAndDifficulty(words, language, difficulty){
     const filteredWords = words.filter(word => word.language === language && word.difficulty === difficulty);
