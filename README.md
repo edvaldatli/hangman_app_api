@@ -9,7 +9,6 @@ Welcome to the Hangman API Express App! This RESTful API provides a collection o
 - [Authentication](#authentication)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Accessing the API
 
@@ -35,10 +34,10 @@ To get started with this API, follow these steps:
    ```
 2. Install the required dependencies:
 
-```bash
-cd hangman-app_api
-npm install
-```
+    ```bash
+    cd hangman-app_api
+    npm install
+    ```
 
 3. Configure the environment variables:
 
@@ -46,33 +45,28 @@ npm install
 
 4. Start the server:
 
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 The server will start on the specified port (default is 3000).
 
 ## Endpoints
- - Retrieve a Random Word
- - Endpoint: /hangman/:language/:difficulty
+### Retrieve a Random Word
+ - Endpoint: /random
  - Method: GET
- - Parameters:
-   - language (string): Language of the word (e.g., English, Icelandic).
-   - difficulty (string): Difficulty level (e.g., Easy, Intermediate, Hard).
  - Response:
    - Status Code: 200 OK
    - Body: A JSON object containing the randomly selected word.
-### List Available Languages
- - Endpoint: /languages
+### Retrieve a word from specified parameters
+ - Endpoint: /:language/:difficulty
  - Method: GET
  - Response:
    - Status Code: 200 OK
-   - Body: A JSON array of available languages.
-### List Available Difficulty Levels
- - Endpoint: /difficulties
- - Method: GET
- - Response:
-   - Status Code: 200 OK
-   - Body: A JSON array of available difficulty levels.
+   - Body: A JSON ojbect containing the randomly selected word within parameters.
+ - Parameters:
+   - difficulty: At what difficulty the word should be.
+   - language: Language that the word should be in.
+     
 ## Authentication
 This API does not require authentication to access the endpoints. However, you can implement authentication and authorization as needed for your specific use case.
 
@@ -93,9 +87,3 @@ Contributions are welcome! If you would like to contribute to this project, plea
 3. Make your changes and commit them.
 4. Push your branch to your forked repository.
 5. Create a pull request to the main repository.
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-Please replace the placeholders (`edvaldatli`, `hangman-api-express`, etc.) with your actual information. If you need any further assistance or have specific questions about the README or your project, feel free to ask!
