@@ -26,24 +26,31 @@ function getRandomWord(words){
 app.get('/', (req, res) => {
     res.type('html');
     const instructions = `
-        <h1>Welcome to the Hangman API!</h1>
-        <h3>Available Endpoints:</h3>
-        <ul>
-            <li><a href="/random"> /random:</a> Get a random word.</li>
-            <li>/:language/:difficulty: Get a word based on specified language and difficulty.</li>
-        </ul>
-        <h3>Available Languages:</h3>
-        <ul>
-            <li>English</li>
-            <li>Icelandic</li>
-        </ul>
-        <h3>Available Difficulties:</h3>
-        <ul>
-            <li>Easy</li>
-            <li>Intermediate</li>
-            <li>Hard</li>
-        </ul>
-        <h4>For more details, please refer to the documentation: <a href="https://github.com/edvaldatli/hangman_app_api">API Documentation</a>.</h4>
+        <!Doctype HTML>
+        <html lang="en">
+        <head>
+            <title>Hangman API</title>
+        </head>
+        <body>
+            <h1>Welcome to the Hangman API!</h1>
+            <h3>Available Endpoints:</h3>
+            <ul>
+                <li><a href="/random"> /random:</a> Get a random word.</li>
+                <li>/:language/:difficulty: Get a word based on specified language and difficulty.</li>
+            </ul>
+            <h3>Available Languages:</h3>
+            <ul>
+                <li>English</li>
+                <li>Icelandic</li>
+            </ul>
+            <h3>Available Difficulties:</h3>
+            <ul>
+                <li>Easy</li>
+                <li>Intermediate</li>
+                <li>Hard</li>
+            </ul>
+            <h4>For more details, please refer to the documentation: <a href="https://github.com/edvaldatli/hangman_app_api">API Documentation</a>.</h4>
+        </body>
     `;
 
     res.send(instructions);
