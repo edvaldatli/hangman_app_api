@@ -95,7 +95,3 @@ Contributions are welcome! If you would like to contribute to this project, plea
 5. Create a pull request to the main repository.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-Please replace the placeholders (`edvaldatli`, `hangman-api-express`, etc.) with your actual information. If you need any further assistance or have specific questions about the README or your project, feel free to ask!
