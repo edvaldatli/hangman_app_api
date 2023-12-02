@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
         <h1>Welcome to the Hangman API!</h1>
         <h3>Available Endpoints:</h3>
         <ul>
-            <li>/random: Get a random word.</li>
+            <li><a href="/random"> /random:</a> Get a random word.</li>
             <li>/:language/:difficulty: Get a word based on specified language and difficulty.</li>
         </ul>
         <h3>Available Languages:</h3>
