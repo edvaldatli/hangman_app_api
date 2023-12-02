@@ -21,6 +21,13 @@ function getRandomWord(words){
     return words[randomIndex];
 }
 
+app.get('/', (req, res) => {
+    res.json([
+        "Use /random or /:language/:difficulty.",
+        "See https://github.com/edvaldatli/hangman_app_api for reference."
+    ])
+})
+
 app.get('/random', (req, res) => {
     let wordsArray;
     let requestedWord;
@@ -74,6 +81,12 @@ app.get('/:language/:difficulty', (req, res) => {
         });
     });
     console.log('A user gathered a word', language, difficulty);
+});
+
+app.use((req, res, next) => {
+    res.status(400).json({ 
+        error: 'Bad request. Invalid language or difficulty.'
+    });
 });
 
 app.listen(port, () => {

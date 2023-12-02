@@ -298,5 +298,190 @@
         "word": "Rhapsody",
         "language": "english",
         "difficulty": "hard"
+    },
+    {
+        "word": "Stjarna",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Blóm",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Steinur",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Vatn",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Barn",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Hundur",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Gras",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Tungl",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Blíða",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Traktor",
+        "language": "icelandic",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Vetur",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Jökull",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Sjór",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Skóli",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Búð",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Rökkuró",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Tónn",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Gíslinn",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Sjómann",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Flugvél",
+        "language": "icelandic",
+        "difficulty": "intermediate"
+    },
+    {
+        "word": "Sjávarfugl",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Álft",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Hvalur",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Skógur",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Veturroðinn",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Rigning",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Hvalveiði",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Höfuborði",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Skógrætur",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Tölvufræði",
+        "language": "icelandic",
+        "difficulty": "hard"
+    },
+    {
+        "word": "Cat",
+        "language": "english",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Sunflower",
+        "language": "english",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Mountain",
+        "language": "english",
+        "difficulty": "easy"
+    },
+    {
+        "word": "River",
+        "language": "english",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Child",
+        "language": "english",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Doghouse",
+        "language": "english",
+        "difficulty": "easy"
+    },
+    {
+        "word": "Garden",
+        "language": "english",
+        "difficulty": "easy"
     }
 ]
