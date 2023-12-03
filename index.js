@@ -87,6 +87,7 @@ app.get('/random', async (req, res) => {
 
         if(word){
             res.json(word.word);
+            console.log('A user gathered a random word');
         } else {
             res.status(404).send('No words found');
         }
@@ -95,17 +96,6 @@ app.get('/random', async (req, res) => {
         console.error('Error getting a random word: ', error);
         res.status(500).send('Server error');
     }
-
-
-    /*
-    let wordsArray;
-    let word;
-
-    wordsArray = getFromDB();
-    word = getRandomWord(wordsArray);
-
-    res.json(word.word);
-    */
 });
 
 app.get('/:language/:difficulty', async (req, res) => {
@@ -118,6 +108,7 @@ app.get('/:language/:difficulty', async (req, res) => {
 
         if(word){
             res.json(word.word);
+            console.log('A user gathered a word', language, difficulty);
         } else {
             res.status(404).send('No words found');
         }
@@ -126,33 +117,7 @@ app.get('/:language/:difficulty', async (req, res) => {
         console.error('Error getting a random word: ', error),
         res.status(500).send('Server error');
     }
-
-
-    /*
-    let wordsArray;
-    let requestedWord;
-
-    fs.readFile('db/words.json', 'utf8', (err, data) => {
-        if (err){
-            console.error('Error reading file:', err);
-            return
-        }
-
-        try {
-            wordsArray = JSON.parse(data)
-        } catch (e) {
-            console.error('Error parsing JSON:', e);
-            return;
-        }
-
-        requestedWord = getRandomWordByLanguageAndDifficulty(wordsArray, language, difficulty);
-
-        res.json({
-            word: requestedWord.word
-        });
-    });
-    */
-    console.log('A user gathered a word', language, difficulty);
+    
 });
 
 app.use((req, res, next) => {
