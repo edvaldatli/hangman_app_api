@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const admin = require('firebase-admin');
-const serviceAccount = require('./firebase/hangman-db-4aa93-firebase-adminsdk-v87m7-3f409fb293.json');
+const serviceAccount = require('./firebase/u22rsse.json');
 
 const fs = require('fs');
 const app = express();
