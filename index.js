@@ -1,15 +1,15 @@
 const express = require('express');
 const cors = require('cors');
 const admin = require('firebase-admin');
-const serviceAccount = require('./firebase/u22rsse.json');
+const config = require('./config.js');
 
 const fs = require('fs');
 const app = express();
 const port = 3000;
 
 admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://hangman-db-4aa93-default-rtdb.europe-west1.firebasedatabase.app/"
+    credential: admin.credential.cert(config.firebaseConfig.serviceAccount),
+    databaseURL: config.firebaseConfig.databaseURL
 });
 
 const database = admin.database();
