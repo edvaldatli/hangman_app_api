@@ -1,4 +1,4 @@
-# Hangman API Express App
+# Hangman Express API
 
 Welcome to the Hangman API Express App! This RESTful API provides a collection of words for the classic Hangman game, along with information about language and difficulty levels. It utilizes Firebase as its backend database to store and retrieve game data.
 
