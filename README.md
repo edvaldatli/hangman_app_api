@@ -21,10 +21,10 @@ The API uses Firebase Realtime Database to store the words used in the Hangman g
 You don't need to clone the repository to access the Hangman API. It's hosted and available for use on the web.
 
 ### Get a Random Word
-- **Endpoint**: [http://hangman.edvaldatli.com/random](http://hangman.edvaldatli.com/random)
+- **Endpoint**: [http://hangman.edvaldatli.com/api/random](http://hangman.edvaldatli.com/api/random)
   - Use this endpoint to retrieve a completely random word.
 ### Get Words with Specific Parameters
-- **Endpoint**: [http://hangman.edvaldatli.com/:difficulty/:language](http://hangman.edvaldatli.com)
+- **Endpoint**: [http://hangman.edvaldatli.com/api/:difficulty/:language](http://hangman.edvaldatli.com/api)
   - Customize your word search by specifying the difficulty level and language.
 
 You can interact with the API directly by making HTTP requests to the specified endpoints.
