@@ -36,7 +36,7 @@ To get started with this API, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/hangman_app_api.git
+   git clone https://github.com/edvaldatli/hangman_app_api.git
    ```
 2. Install the required dependencies:
 
